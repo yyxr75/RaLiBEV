@@ -1,7 +1,7 @@
 # RaLiBEV: Radar and LiDAR BEV Fusion Learning for Anchor Box Free Object Detection Systems
 Paper Link: [arxiv](https://arxiv.org/abs/2211.06108)
 
-> Yanlong Yang, Jianan Liu, Tao Huang, Qing-long Han, Gang Ma, and Bin Zhu
+> Yanlong Yang, Jianan Liu, Tao Huang, Qing-long Han, Gang Ma, and Bing Zhu
 
 
 This is the official code base of RaLiBEV. In this novel work, we propose a bird's-eye view fusion learning-based anchor box-free object detection system. Our approach introduces a novel interactive transformer module for enhanced feature fusion and an advanced label assignment strategy for more consistent regression, addressing key limitations in existing methods. Specifically, experiments show that, our approach's average precision ranks $1^{st}$ and significantly outperforms the state-of-the-art method by 13.1\% and 19.0\% at Intersection of Union (IoU) of 0.8 under Clear+Foggy training conditions for Clear and Foggy testing, respectively. 
