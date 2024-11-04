@@ -167,6 +167,14 @@ python calc_mAP.py
 
 In order to load weights from pre-trained model, the [`--experiment_name`]() and [`--model_path`](https://github.com/yyxr75/RaLiBEV/blob/696835910bd45a13f64d073494a255cdb7f78d2f/utils/opts.py#L31) should be specified.
 
+## Model Zoo
+
+| Model | Link |
+|----------|----------|
+| Label Assignment Base Model | [Model](https://drive.google.com/file/d/1oSLwK7r3PLC9QsaL8pbtae-CTO8b1chO/view?usp=drive_link) |
+| Direct Transformer for BEV Fusion | [Model](https://drive.google.com/file/d/1S2YIgP9Ag1F-k-Ukqd22IEYs6k5v1Zm5/view?usp=drive_link) |
+| Dense Query Map-based Interactive Transformer for BEV Fusion (DQMITBF) | [Model](https://drive.google.com/file/d/1Qht3ENwe9nCkjmF9eQYCE9gsg64JZnXe/view?usp=drive_link) |
+
 ## Citation
 
 If you find our code helpful, please cite:
