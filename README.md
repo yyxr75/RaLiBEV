@@ -167,6 +167,12 @@ python calc_mAP.py
 
 In order to load weights from pre-trained model, the [`--experiment_name`]() and [`--model_path`](https://github.com/yyxr75/RaLiBEV/blob/696835910bd45a13f64d073494a255cdb7f78d2f/utils/opts.py#L31) should be specified.
 
+For example:
+
+```
+python calc_mAP.py --experiment_name Label_Assignment_Base_Model_test --model_path epoch111-train_0.509-val_0.860_ckpt.pth
+```
+
 ## Model Zoo
 
 | Model | Link |
